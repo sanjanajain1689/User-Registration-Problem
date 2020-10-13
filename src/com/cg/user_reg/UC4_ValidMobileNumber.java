@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 public class UC4_ValidMobileNumber {
 	static Scanner sc =new Scanner(System.in);
 	public static void main(String[] args) {
-	//valid_FirstName();
-    //valid_LastName();
-    //valid_Email();
+	valid_FirstName();
+    valid_LastName();
+    valid_Email();
     valid_MobileNo();
   }
 
