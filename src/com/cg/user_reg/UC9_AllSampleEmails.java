@@ -3,7 +3,7 @@ package com.cg.user_reg;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class UC8_Password4 {
+public class UC9_AllSampleEmails {
 	static Scanner sc =new Scanner(System.in);
 	public static void main(String[] args) {
 	valid_FirstName();
@@ -116,4 +116,3 @@ public static void valid_Password() {
 	}
    }
 }
-

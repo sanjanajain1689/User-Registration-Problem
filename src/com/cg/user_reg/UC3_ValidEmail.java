@@ -59,7 +59,7 @@ public class UC3_ValidEmail {
 		String email=sc.nextLine();
 		boolean check=true;
 		while(check) {
-		if(Pattern.matches("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$",email))
+		if(Pattern.matches("^[a-zA-Z]+[.]?[a-zA-Z]*@[a-zA-Z]+[.][a-zA-Z]+[.]?[a-zA-Z]*$",email))
 			check=false;
 		else {
 			System.out.println("Invalid Email");

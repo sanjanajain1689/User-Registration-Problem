@@ -48,7 +48,7 @@ public static void valid_Email() {
 	String email=sc.nextLine();
 	boolean check=true;
 	while(check) {
-	if(Pattern.matches("^[a-zA-Z]+(.[a-zA-Z]*)@[a-zA-Z]+(.[a-zA-Z]*)$",email))
+	if(Pattern.matches("^[a-zA-Z]+[.]?[a-zA-Z]*@[a-zA-Z]+[.][a-zA-Z]+[.]?[a-zA-Z]*$",email))
 		check=false;
 	else {
 		System.out.println("Invalid Email");
