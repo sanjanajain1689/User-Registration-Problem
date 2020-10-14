@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class UC6_Password2 {
 		static Scanner sc =new Scanner(System.in);
 		public static void main(String[] args) {
-		/*valid_FirstName();
+		valid_FirstName();
 	    valid_LastName();
 	    valid_Email();
-	    valid_MobileNo();*/
+	    valid_MobileNo();
 	    valid_Password();
 	  }
 
